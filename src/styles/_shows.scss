@@ -14,11 +14,8 @@
 
         @media (max-width: 768px) {
             grid-template-columns: 1fr 1fr;
-            display: flex;
-            flex-wrap: wrap;   /* quebra os itens em várias linhas */
-            justify-content: center;
-            padding: 0;
-            margin: 0 auto;
+            overflow-x: hidden;
+            white-space: nowrap;
         }
 
         &--is-active {
@@ -29,7 +26,7 @@
             img {
                 max-width: 100%;
                 border-radius: 4px;
-                
+
             }
         }
     }
