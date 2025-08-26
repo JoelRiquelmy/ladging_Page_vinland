@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone_Disney</title>
+    <link rel="stylesheet" href="dist/css/styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img  class="header__logo" src="./src/images/logo.png" alt="Disney+">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item ">
+                    <a href="#" class="button button--secondary">Assista agora</a>
+                </li>
+
+                <li class="header__links__item">
+                    <a href="#" class="button button--dark">Já sou assinante</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="./src/images/vinland saga.png" alt="Vinland Saga">
+            </div>
+            <p>
+                <a href="#" class="link-text">Assista Vinland Saga agora</a>
+            </p>
+            <br>
+            <span class="text">
+                R$ 27,90/mês ou R$ 279,90/ano à vista
+            </span>
+            <ul class="hero__content__combos">
+                <li class="hero__content__combos__combo">
+                    <button class="button">Assista agora</button>
+                    <span class="text">45,90/mês</span>
+                </li>
+            </ul>
+            <p class="text--small">
+                O preço pode variar caso a assinatura seja feita através de outras plataformas
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                1 | Temporada
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                2 | Temporada
+            </button>
+            <button data-tab-button="star_plus" class="shows__tabs__button">
+                3 | Temporada em-breve
+            </button>
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep3.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep3.png" alt="">
+            </li>
+            
+        </ul>
+        <ul data-tab-id="populares" class="shows__list ">
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep1.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep3.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep.png" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/imagem ep1.png" alt="">
+            </li>
+        </ul>
+        <ul id="temporada-3" class="shows__list" data-tab-id="star_plus">
+            <li class="shows__list__item">
+                <img src="./src/images/mais_no_star_plus/libertadores.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/mais_no_star_plus/libertadores.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./src/images/mais_no_star_plus/libertadores.jpg" alt="">
+            </li>
+        </ul>
+    </section>
+    <section class="image-text-section">
+        <picture>
+            <source media="(max-width: 768px)" srcset="./src/images/sobre_vinland_celular.png" />
+            <img src="./src/images/sobre_vinland.png" alt="imagem com TV, computador, tablet e celular">
+        </picture>
+        
+        <div class="image-text-section__text_container">
+            <h2 class="title">Sobre Vinland Saga</h2>
+            <p class="text--big">
+                Vinland Saga conta a história de Thorfinn, um jovem viking que vê seu pai, Thors, ser morto por mercenários liderados por Askeladd. Movido pela vingança, ele cresce lutando ao lado desse mesmo homem, esperando o dia em que poderá derrotá-lo em um duelo justo. No caminho, Thorfinn vive batalhas sangrentas, invasões e intrigas políticas, especialmente ligadas ao príncipe Canuto, que mais tarde se tornará rei. Depois da morte de Askeladd, Thorfinn perde seu propósito e cai em desespero, mas com o tempo encontra um novo objetivo: deixar para trás a violência e buscar uma vida de paz em Vinland, uma terra distante e fértil onde sonha construir um lugar livre de guerras e escravidão.
+            </p>
+        </div>
+    </section>
+    
+    <section class="available-devices">
+        <h2 class="title">Disponível nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./src/images/dispositivos/computador.png" alt="computador">
+                <h4 class="title--small">Computador</h4>
+                
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/images/dispositivos/tv.png" alt="tv">
+                <h4 class="title--small">TV</h4>
+                
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/images/dispositivos/videogames.png" alt="Video game">
+                <h4 class="title--small">Video games</h4>
+                
+            </li>
+            <li class="available-devices__list__item">
+                <img src="./src/images/dispositivos/celular.png" alt="celular">
+                <h4 class="title--small">Celular e tabletes</h4>
+                
+            </li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2 class="title">Perguntas frequentes</h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a resposta da pergunta
+                </div>
+            </li>
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    pergunta?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    a resposta da pergunta
+                </div>
+            </li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <div class="footer__container">
+            <img class="footer__logo" src="src/images/logo.png" alt="Disney+">
+        <ul class="footer__links">
+            <li class="footer__links__item">
+                <div class="language-selector">
+                        <img src="src/images/icones/globe.svg" alt="globo">
+                    <select>
+                        <option>English</option>
+                        <option selected >Português</option>
+                    </select>
+                </div>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Termos e condições de uso</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Política de privacidade</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Proteção de dados</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Anúncios personalizados</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Dispositivos compativeis</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Ajuda</a>
+            </li>
+            <li class="footer__links__item">
+                <a class="text--small" href="#">Sobre Vinland Saga</a>
+            </li>
+        </ul>
+        <p class="text--small">
+            © 2025 Vinland Saga e suas empresas afiliadas. Todos os direitos reservados.
+        </p>
+        <p class="text--small">
+            A programação do conteúdo esportivo varia de acordo com o plano. Para usar o Vinland Saga, é necessário ser assinante e ter mais de 18 anos de idade. Conteúdo sujeito a disponibilidade.
+O serviço Vinland Saga é comercializado por Vinland Saga Company (Brasil) Ltda., World Trade Center, Av. Das Nações Unidas, 12.551, 12.555, 12.559, Piso 10, São Paulo/SP – CEP 04578-903, Brasil e CNPJ/M 73.042.962/0004-20
+        </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+</html>
