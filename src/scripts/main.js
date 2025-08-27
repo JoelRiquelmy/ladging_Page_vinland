@@ -3,8 +3,10 @@ document.addEventListener('DOMContentLoaded', function () {
     removeBotaoAtivo();
     const questions = document.querySelectorAll('[data-faq-question]')
 
+
+
     const heroSection = document.querySelector('.hero')
-    const alturaHero =  heroSection.clientHeight
+    const alturaHero =  heroSection.offsetHeight
 
     window.addEventListener('scroll', function() {
         const posicaoAtual = window.scrollY
